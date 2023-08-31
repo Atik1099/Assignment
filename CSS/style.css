@@ -1,0 +1,236 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35em;
+}
+.nav-link>ul{
+    display: flex;
+    gap: 4.5em;
+    align-items: center;
+}
+ul>li{
+    list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1.2em;
+}
+.nav-btn{
+    padding: 1em;
+    background-color: #F4ECF2;
+    border-radius: 10px;
+}
+.logo{
+    height: 3em;
+    width: 6em;
+}
+
+.nav-tag{
+    font-size: 3em;
+}
+.g{
+    color: #FF42A5;
+}
+button{
+    border: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20em;
+    background-color: #F4ECF2;    
+}
+.banner-img{
+    padding: 2em;
+}
+.banner-h2{
+    font-size: 2em;
+}
+.banner-h1{
+    margin-left: -10px;
+    font-size: 6em;
+    font-weight: 900;
+    background: -webkit-linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-btn{
+    padding-top: 2.5em;
+}
+.btn1{
+    border-radius: 100px;
+    padding: 1.5em 3em;
+    background-color: #FF42A5;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+.btn2{
+    background-color: #4EC5F7;
+    padding: 1.5em 3em;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+}
+.scrl1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 8em;
+    background-color: #F5EFF2;
+    padding: 2em;
+}
+.scrl1-content{
+    padding: 1em;
+    text-align: right;
+    width: 25%;
+}
+.scrl1-h2{
+    margin-bottom: 1em;
+}
+.scrl1-p{
+    margin-bottom: 1em;
+}
+.scrl1-btn{
+    margin-bottom: 1em;
+    margin-right: -2em;
+}
+.scrl2{
+    margin: 4em 0;
+}
+.scrl1-h2{
+    margin-left: -10px;
+    font-size: 2.2em;
+    background: -webkit-linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scrl2-hero{
+    text-align: center;
+    margin: 30px 0;
+}
+.scrl2-h1{
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+.scrl2-p{
+    font-weight: 600;
+}
+.scrl2-span{
+    background: -webkit-linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scrl2-poster{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 80%;
+    gap: 1em;
+    margin: 0 auto;
+}
+.scrl3-h1{
+    font-size: 2.6em;
+}
+.scrl3-span{
+    background: -webkit-linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scrl3-content{
+    text-align: right;
+    padding: 1.5em;
+    max-width: 23%;
+    margin-right: -200px;
+}
+.scrl3{
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20em;
+}
+.scrl4{
+    background-color: #FF41A4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.scrl4-content{
+    padding: 40px;
+    margin-left: 80px;
+}
+.scrl4-h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+.scrl4-p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: white;
+}
+.scrl4-btn{
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border-radius: 45px;
+    font-weight: bolder;
+}
+#im4{
+    margin-left: 100px;
+}
+footer{
+    background-color: rgb(24, 0, 24);
+    padding: 40px;
+}
+.amer{
+    color: white;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1.2em;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    margin-bottom: 4em;
+}
+.footer-link>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    margin-bottom: 2em;
+}
+.terms>a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.cr-p{
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+}
